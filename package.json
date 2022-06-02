@@ -1,0 +1,23 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "countryTask",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halif4ik/nodeJs.git"
+  },
+  "keywords": [
+    "nodeJs"
+  ],
+  "author": "Dmitro Hrymach <dmytro.grymach@adoric.com>",
+  "license": "ISC",
+  "dependencies": {
+    "country-json": "^1.1.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
