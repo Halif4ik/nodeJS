@@ -4,7 +4,8 @@
   "description": "countryTask",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node nodeOnix.js",
+    "dev": "nodemon nodeOnix.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,11 @@
   "license": "ISC",
   "dependencies": {
     "country-json": "^1.1.2",
+    "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
