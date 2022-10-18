@@ -26,10 +26,10 @@ const server = http.createServer((req, res) => {
         resp.on('end', () => {
             let obj = JSON.parse(data);
             result = obj.data.rateUsd;
+            res.end("usd :" + result);
         })
     });
 
-    setTimeout(() => res.end("usd :" + result), 400);
 })
 
 server.listen(port, hostname, () => {
